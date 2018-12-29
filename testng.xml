@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+
+    
+  </test> <!-- Test -->
+  
+     <test name="t1" preserve-order="true">
+        <classes>                     
+             <class name="restapi.test.automation.TestCase_Tiger">
+               <methods>
+                   <include name ="sendmail" />
+                   <include name ="GetwithAuth_NewModel" />                    
+                   <include name ="GetwithAuth" /> 
+                    <include name ="GetwithAuthAndParamInput_NewModel" />  
+                    <include name ="GetwithAuthAndParamInput" />
+                     
+                     <include name ="GetwithAuthAndPost" /> 
+                     <include name ="GetwithAuthAndPost_JSONObject" />             
+               </methods>
+            </class>                        
+        </classes>
+    </test> 
+    
+  <!-- remove1  -->>
+   <parameter name="GETURL" value="1aHR0cHM6Ly90YXNjZW50cmFsLmM5cWExMzIub3JhY2xlY29ycC5jb20vdGFzLWNlbnRyYWwvLmNvbW1vbi90YXMvYXBpL3YxL2RhdGFSZWdpb25zL0xBMDAx" />   
+   <parameter name="GETURL_PARAM" value="1aHR0cHM6Ly90YXNjZW50cmFsLmM5cWExMzIub3JhY2xlY29ycC5jb206NDQzL3Rhcy1jZW50cmFsLy5jb21tb24vdGFzL2FwaS92MS9vcmRlcnM=" />
+   <parameter name="POSTURL" value="1aHR0cHM6Ly90YXNjZW50cmFsLmM5cWExMzIub3JhY2xlY29ycC5jb20vdGFzL2Rhc2hib2FyZC9yZXN0L2NvbW1hbmQ=" />
+   <parameter name="GETUSERNAME" value="1T0NMT1VEOV9UQVNfQVBQSUQ=" /> 
+   <parameter name="GETPASSWORD" value="1cnZxcHUybmRzVTNfd2o=" /> 
+   <parameter name="POSTUSERNAME" value="1T0NMT1VEOV9PUENJTkZSQV9BRE1JTlVJX0FQUElE" /> 
+   <parameter name="POSTPASSWORD" value="1Y2xvdWQ5X1RBUw==" />
+   <parameter name="Header" value="1WC1vcmFjbGUtVXNlcklk" />
+
+</suite> <!-- Suite -->

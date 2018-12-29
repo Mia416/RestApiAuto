@@ -1,0 +1,1 @@
+{"name":"modify_service_properties", "options":[{"key":"name", "value":"CECSAUTO"},{"key":"category", "value":"OrderProcessingInfo"},{"key":"property_name", "value":"allow_refresh_entitlement"}, {"key":"property_value", "value":"N"}]}
