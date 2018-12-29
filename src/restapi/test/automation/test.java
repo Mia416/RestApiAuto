@@ -8,7 +8,7 @@ public class test {
 		
 		MailLib m = new MailLib();
 		
-		m.sendmail();
+		m.sendmailwithattachment();
 	}
 
 }
